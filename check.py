@@ -19,4 +19,5 @@ def check_open():
         print('\a')
         os.system('notify-send "Dominos are opeeeeen!"')
 
-check_open()
+if __name__ == '__main__':
+    check_open()
